@@ -1,6 +1,7 @@
-import PrimaryButton from "../components/PrimaryButton";
-import styles from "../styles/home.module.scss";
-
+// import PrimaryButton from "../components/PrimaryButton";
+// import styles from "../styles/home.module.scss";
+import PrimaryButton from "@/components/PrimaryButton";
+import styles from "@/styles/home.module.scss";
 export default function HomePage() {
   return (
     <section className={styles.hero}>
