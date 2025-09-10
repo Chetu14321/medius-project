@@ -1,0 +1,121 @@
+.startPage {
+  font-family: 'Inter', sans-serif;
+  background: #f4f7fa;
+  color: #333;
+}
+
+.hero {
+  background: #0b5fff;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 0 0 2rem 2rem;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .ctaButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    .ctaPrimary,
+    .ctaSecondary {
+      display: inline-block;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 5px;
+      text-decoration: none;
+      text-align: center;
+      transition: background 0.3s;
+
+      &:hover {
+        background: #0747a6;
+      }
+    }
+
+    .ctaPrimary {
+      background: #0b5fff;
+      color: white;
+    }
+
+    .ctaSecondary {
+      background: white;
+      color: #0b5fff;
+      border: 2px solid #0b5fff;
+    }
+  }
+}
+
+.mortgageCalculator {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  margin: -2rem 2rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    font-size: 2rem;
+    color: #0b5fff;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .calculatorForm {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+
+    label {
+      display: block;
+      font-size: 1rem;
+      color: #555;
+
+      input {
+        width: 100%;
+        padding: 0.8rem;
+        margin-top: 0.5rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+    }
+
+    button {
+      padding: 1rem 2rem;
+      background: #0b5fff;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background: #0747a6;
+      }
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: #f4f7fa;
+  color: #555;
+  font-size: 1rem;
+}
